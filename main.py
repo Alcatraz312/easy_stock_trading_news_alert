@@ -1,7 +1,8 @@
 import requests 
 import json
+from api_keys import *
 
-STOCK_API_KEY = "A6C2CMZ1GE3OF9N3"
+
 stock_api_endpoint = "https://www.alphavantage.co/query"
 
 params = {"function" : "TIME_SERIES_DAILY_ADJUSTED",
