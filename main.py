@@ -33,6 +33,10 @@ print(percentage)
 if percentage > 1:
 
     params_2 = {"apiKey" : NEWS_API_KEY,
-                 }
+                "q" : "Tesla Inc"}
 
-    response_2 = requests.get("https://newsapi.org/v2/everything", params=)
+    response_2 = requests.get("https://newsapi.org/v2/everything", params= params_2)
+    response_2.raise_for_status()
+
+    data_2 = response_2.json()
+    
