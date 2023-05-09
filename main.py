@@ -44,5 +44,14 @@ if percentage > 1:
 
     formatted_articles = [f"Headline : {article['title']}. \nBrief : {article['description']}" for article in three_articles]
 
-    print(formatted_articles)
+    client = Client(TWILIO__SID,auth_token)
+
+    for articles in formatted_articles:
+        message = client.messages.create(
+            body= articles,
+            from_= "+16205248402",
+            to= "+919413838272"
+        )
+
+    
 
