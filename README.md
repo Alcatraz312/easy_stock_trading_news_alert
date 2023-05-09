@@ -1,3 +1,3 @@
 <h2 align = "center"> Automated stock trading news alert program using python </h2>
-<img src = "https://www.wionews.com/iifl/wp-content/uploads/2022/12/A-Basic-Guide-To-Stock-Trading.jpg" width = "200" height = "200" align  = "center"/>
+<img alt = "https://i.gifer.com/origin/8d/8dd7f3c9f4543a8b179466c40cc219a8.gif" width = "200" height = "200" align  = "center"/>
 
