@@ -1,7 +1,7 @@
 import requests 
 import json
 from api_keys import *
-
+from twilio.rest import Client
 
 stock_api_endpoint = "https://www.alphavantage.co/query"
 news_api_endpoint = "https://newsapi.org/v2/everything"
@@ -38,5 +38,11 @@ if percentage > 1:
     response_2 = requests.get("https://newsapi.org/v2/everything", params= params_2)
     response_2.raise_for_status()
 
-    data_2 = response_2.json()
-    
+    data_2 = response_2.json()["articles"]
+
+    three_articles = data_2[:3]
+
+    formatted_articles = [f"Headline : {article['title']}. \nBrief : {article['description']}" for article in three_articles]
+
+    print(formatted_articles)
+
