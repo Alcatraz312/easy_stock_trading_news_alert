@@ -4,6 +4,7 @@ from api_keys import *
 
 
 stock_api_endpoint = "https://www.alphavantage.co/query"
+news_api_endpoint = "https://newsapi.org/v2/everything"
 
 params = {"function" : "TIME_SERIES_DAILY_ADJUSTED",
           "symbol" : "TSLA",
@@ -29,5 +30,9 @@ percentage = (difference/float(yesterday_closing_price)) * 100
 
 print(percentage)
 
-if percentage > 2:
-    print("get news")
+if percentage > 1:
+
+    params_2 = {"apiKey" : NEWS_API_KEY,
+                 }
+
+    response_2 = requests.get("https://newsapi.org/v2/everything", params=)
