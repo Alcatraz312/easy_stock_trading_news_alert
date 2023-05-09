@@ -1,3 +1,3 @@
 <h2 align = "center"> Automated stock trading news alert program using python </h2>
-<img src = "74pZ.gif" align  = "centre" width = "200" height = "200"/>
+<img src = "74pZ.gif" align  = "center" width = "200" height = "200"/>
 
