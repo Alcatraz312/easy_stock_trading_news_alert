@@ -2,6 +2,7 @@
 <p align="center">
   <img src = "74pZ.gif"  width = "200" height = "200"/>
 </p>
+<br/>
 <p align = "center">
   <img src = "https://img.shields.io/github/forks/Alcatraz312/easy_stock_trading_news_alert" />
 </p>
