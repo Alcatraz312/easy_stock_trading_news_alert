@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "./images/Stock_trading_news_alert_project.png" alt = "banner" size = 200/>
+  <img src = "./images/Stock_trading_news_alert_project.png" alt = "banner" width = 200 height = 50/>
  </p>
 <p align="center">
   <img src = "./images/74pZ.gif"  width = "200" height = "200"/>
