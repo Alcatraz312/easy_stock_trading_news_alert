@@ -1,4 +1,4 @@
-<h2 align = "center"> Automated stock trading news alert program using python </h2>
+<img src = "./images/Stock_trading_news_alert_project.png" alt = "banner"/>
 <p align="center">
   <img src = "./images/74pZ.gif"  width = "200" height = "200"/>
 </p>
